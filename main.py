@@ -15,7 +15,6 @@ max_year = years.max()
 years = years.astype('str')
 
 years = np.append(years, f"С {min_year} по {max_year}")
-print(years)
 
 app.layout = html.Div([
     html.H1(children='Статистика пользования социальными сетями по всему миру',
